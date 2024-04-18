@@ -1,4 +1,8 @@
 /* Reset styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -25,11 +29,23 @@ a {
 }
 
 button {
-  cursor: pointer;
+  font-family: inherit;
+  color: currentColor;
+  border: none;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+input,
+textarea {
+  font-family: inherit;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
